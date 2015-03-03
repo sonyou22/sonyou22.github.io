@@ -10,7 +10,7 @@
     });
 
     $('.d3').hover(function() {
-        $('.bg').css('background-image', 'url("css/img/BG/3_D3.jpg")');
+        $('.bg').css('background-image', 'url("css/img/BG/3_D3.JPG")');
     });
 
     $('.ice').hover(function() {
