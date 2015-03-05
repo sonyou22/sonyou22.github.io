@@ -129,8 +129,8 @@ header.intro .logoBlue .name {
 /* -----------------------------------------------------------------
 고정 상단 메뉴 : 로고, ABOUT 이동 */
 header.top {
-    width: 100%;
-    position: fixed;
+    width:100%;
+    position:fixed;
     z-index: 10;
     top:0;
 }
@@ -235,7 +235,7 @@ ul a:hover {
 
 
 /* -----------------------------------------------------------------
-2. 리스트 */
+2. 썸네일 리스트*/
 
 section.major2,
 section.major2 article{
