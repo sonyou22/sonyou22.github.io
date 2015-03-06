@@ -1,0 +1,57 @@
+html, body, header {
+    width:100%;
+    background-color: rgba(200, 220, 220, 1);
+    font-family: 'Muli', sans-serif;
+}
+
+/* -----------------------------------------------------------------
+고정 상단 메뉴 : 로고, ABOUT 이동 */
+header.top {
+    width:100%;
+    position:fixed;
+    z-index: 10;
+    top:0;
+}
+.logoWhite {
+    width: 72px;
+    margin:20px auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+.button {
+    overflow: hidden;
+    position:relative;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.button a, .aboutText, .buttonBG{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.aboutText {
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 255ms ease;
+}
+.buttonBG {
+    font-weight: 600;
+    position:absolute;
+    width:100%;
+    bottom:-100%;
+    background-color:rgba(255, 255, 255, 1);
+    color: rgba(200, 220, 220, 1);
+    transition: all 255ms ease;
+}
+.button:hover .buttonBG{
+    position: absolute;
+    bottom: 0;
+}
+
+.button:hover .aboutText {
+    transform: translate3d(0px, -25px, 0px);
+}
+
