@@ -306,6 +306,14 @@ article.container {
     bottom: 102%;
 }
 
+/* -----------------------------------------------------------------
+Footer - copyright */
+.copyright {
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 /* ==========================================================================

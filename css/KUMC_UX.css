@@ -66,10 +66,18 @@ header.top {
 .contents {
     margin:0 auto;
     max-width:1000px;
-
+    margin-bottom: 3%;
 }
 
 
+/* -----------------------------------------------------------------
+Footer - copyright */
+.copyright {
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 
